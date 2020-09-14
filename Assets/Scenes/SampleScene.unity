@@ -123,6 +123,28 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &12627109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4375871605796736682, guid: 679ef595fced61b4d9e6bd8d32f90489, type: 3}
+  m_PrefabInstance: {fileID: 4375871605809291791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &12627110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12627109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395f5d7021311f44baf422d21caf1ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 0}
+  speed: 1
+  leftAndRightEdge: 20
+  chanceToChangeDirections: 0.1
+  secondsBetweenAppleDrops: 1
 --- !u!1 &1794302227
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,7 +333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4375871605796736680, guid: 679ef595fced61b4d9e6bd8d32f90489, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4375871605796736680, guid: 679ef595fced61b4d9e6bd8d32f90489, type: 3}
       propertyPath: m_LocalPosition.z
