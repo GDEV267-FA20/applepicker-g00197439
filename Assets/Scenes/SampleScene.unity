@@ -379,5 +379,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: AppleTree
       objectReference: {fileID: 0}
+    - target: {fileID: 4375871605796736682, guid: 679ef595fced61b4d9e6bd8d32f90489, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375871606556365310, guid: 679ef595fced61b4d9e6bd8d32f90489, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375871607404879151, guid: 679ef595fced61b4d9e6bd8d32f90489, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 679ef595fced61b4d9e6bd8d32f90489, type: 3}
