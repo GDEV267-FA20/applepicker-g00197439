@@ -140,10 +140,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 395f5d7021311f44baf422d21caf1ceb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
+  applePrefab: {fileID: 1492574727757241898, guid: 95c099448b5a6ef4aa139a7145ec7377, type: 3}
   speed: 7
   leftAndRightEdge: 20
-  chanceToChangeDirections: 0.02
+  chanceToChangeDirections: 0.01
   secondsBetweenAppleDrops: 1
 --- !u!1 &1794302227
 GameObject:
@@ -370,6 +370,10 @@ PrefabInstance:
     - target: {fileID: 4375871605796736680, guid: 679ef595fced61b4d9e6bd8d32f90489, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375871605796736681, guid: 679ef595fced61b4d9e6bd8d32f90489, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375871605796736682, guid: 679ef595fced61b4d9e6bd8d32f90489, type: 3}
       propertyPath: m_Name
