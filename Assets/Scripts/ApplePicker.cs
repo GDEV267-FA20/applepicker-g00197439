@@ -32,6 +32,12 @@ public class ApplePicker : MonoBehaviour
         foreach(GameObject tGO in tAppleArray)
         {
             Destroy(tGO);
+
+            // If there are no Baskets left, restart the game
+            if(basketList.Count == 1)
+            {
+                SceneManager.LoadScene("SampleScene 1");
+            }
         }
 
         // Destroy one of the baskets
